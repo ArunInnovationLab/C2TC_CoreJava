@@ -1,10 +1,7 @@
-package com.tnsif.lesson3f;
+package com.tnsif.lesson3d;
 
-class DemoSix{
-	
-}
 
-public class Six {
+public class Four {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
