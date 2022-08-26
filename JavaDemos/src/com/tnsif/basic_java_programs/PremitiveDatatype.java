@@ -1,6 +1,6 @@
 package com.tnsif.basic_java_programs;
 
-public class Code_Three {
+public class PremitiveDatatype {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,7 +12,6 @@ public class Code_Three {
 		long longMin = -9223372036854775808L;
 		byte byteMax = 127;
 		byte byteMin = -128;
-
 
 	}
 

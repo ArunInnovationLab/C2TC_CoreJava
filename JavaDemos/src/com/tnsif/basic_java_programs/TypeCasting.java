@@ -1,10 +1,12 @@
 package com.tnsif.basic_java_programs;
 
-public class Code_One {
+public class TypeCasting {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World!");
+	       float f = 10.532f;
+	       long l = (long) f;
+	       System.out.println(l);
 
 	}
 
