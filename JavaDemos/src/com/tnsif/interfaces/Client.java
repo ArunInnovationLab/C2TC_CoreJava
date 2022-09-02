@@ -11,6 +11,7 @@ public class Client {
 		Animal animal2 = new Cow();
 		animal2.eat();
 		animal2.makesSound();
+		
 	}
 
 }
