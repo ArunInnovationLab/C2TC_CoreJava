@@ -1,4 +1,4 @@
-package com.java.collection_framework;
+package com.tnsif.collection_framework;
 
 public class Employee {
 

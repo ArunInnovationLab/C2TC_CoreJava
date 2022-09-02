@@ -1,6 +1,5 @@
-package com.java.collection_framework;
+package com.tnsif.collection_framework;
 import java.util.Stack;
-
 import java.util.ListIterator;
 
 public class StackDemo {
