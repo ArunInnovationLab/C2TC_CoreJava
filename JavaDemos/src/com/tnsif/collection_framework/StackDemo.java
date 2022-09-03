@@ -40,6 +40,9 @@ public class StackDemo {
 		while(li.hasPrevious()) {
 			System.out.println(li.previous());
 		}
+		
+		
+		System.out.println("\nStack st: "+st);
 	
 	}
 }

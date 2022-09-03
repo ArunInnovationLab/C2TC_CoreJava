@@ -33,13 +33,15 @@ public class ArrayListDemo {
 			Object o = it.next();
 			System.out.println(o);
 		}
-		System.out.println();
+		System.out.println("\n");
 		System.out.println("Accessing array elements ");
 		
 		for (int j = 0; j < a.size(); j++) {
+			
 			System.out.println("Element at index "+ j +" is "+a.get(j));
 		}
-		
+	
+		System.out.println("\nArray List : "+a);
 		
 	}
 
