@@ -1,4 +1,4 @@
-package com.tnsif.CollectionFramework;
+package com.tnsif.CollectionsFramework;
 
 public class Student {
 

@@ -26,7 +26,7 @@ class Two extends One
 }
 public class SingleInheritanceDemo {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Two obj2 = new Two();
 		obj2.dispOutput2();
 		

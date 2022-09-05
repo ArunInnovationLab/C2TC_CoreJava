@@ -1,4 +1,4 @@
-package com.tnsif.CollectionFramework;
+package com.tnsif.CollectionsFramework;
 
 import java.util.Enumeration;
 import java.util.Vector;

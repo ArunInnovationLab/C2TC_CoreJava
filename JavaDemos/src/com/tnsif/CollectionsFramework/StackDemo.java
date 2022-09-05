@@ -1,4 +1,4 @@
-package com.tnsif.CollectionFramework;
+package com.tnsif.CollectionsFramework;
 import java.util.Stack;
 import java.util.ListIterator;
 
@@ -10,12 +10,12 @@ public class StackDemo {
 		//List interface is implemented by the classes ArrayList, LinkedList, Vector, and Stack
 		Stack st = new Stack();
 		
-		Student s1 = new Student(1,"Ärun",6.5f);
-		Student s2 = new Student(2,"Varun",8.5f);
-		Employee e1 = new Employee(17,"Abd","abd@gmail.com",10000000f);
-		Employee e2 = new Employee(11,"Ram","ram@gmail.com",10000f);		
-		Employee e3 = new Employee(12,"Modi","modi@gmail.com",30000f);
-		Employee e4 = new Employee(13,"Jaun","jaun@gmail.com",1000000f);
+		Student s1 = new Student(1,"John",6.5f);
+		Student s2 = new Student(2,"Van",8.5f);
+		Employee e1 = new Employee(17,"Tod","tod@gmail.com",10000000f);
+		Employee e2 = new Employee(11,"James","james@gmail.com",10000f);		
+		Employee e3 = new Employee(12,"Hall","tod@gmail.com",30000f);
+		Employee e4 = new Employee(13,"Don","don@gmail.com",1000000f);
 
 		st.push(e4);
 		st.push(e3);
