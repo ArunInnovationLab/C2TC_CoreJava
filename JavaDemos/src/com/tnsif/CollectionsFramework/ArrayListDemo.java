@@ -11,12 +11,12 @@ public class ArrayListDemo {
 
 		List a = new ArrayList();
 		
-		Student s1 = new Student(1,"Ärun",6.5f);
-		Student s2 = new Student(2,"Varun",8.5f);
+		Student s1 = new Student(1,"John",6.5f);
+		Student s2 = new Student(2,"Tom",8.5f);
 		Integer i = new Integer(100);
 		Float f = new Float(10.5f);
-		Employee e1 = new Employee(17,"Abd","abd@gmail.com",10000000f);
-		Employee e2 = new Employee(11,"Ram","ram@gmail.com",10000f);
+		Employee e1 = new Employee(17,"Ralph","ralph@gmail.com",10000000f);
+		Employee e2 = new Employee(11,"Daniel","daniel@gmail.com",10000f);
 
 		
 		a.add(s2);
