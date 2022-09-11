@@ -15,6 +15,7 @@ public class ArrayDequeDemo {
 		adq.push("C");
 		adq.push("D");
 		
+		
 		System.out.println(adq);
 		adq.pop();
 		System.out.println(adq);

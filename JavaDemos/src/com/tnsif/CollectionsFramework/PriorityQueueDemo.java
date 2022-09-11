@@ -1,7 +1,7 @@
 package com.tnsif.CollectionsFramework;
 
 import java.util.PriorityQueue;
-import java.util.Queue;
+
 
 public class PriorityQueueDemo {
 
@@ -23,13 +23,13 @@ public class PriorityQueueDemo {
         
         System.out.println(pq1);
         
-        System.out.println(pq1.remove());
-        
-        System.out.println(pq1.offer(2022));
-        
+      pq1.remove();
+      System.out.println(pq1);
+       
+     pq1.offer(5000);     
         System.out.println(pq1);
         
-        System.out.println(pq1.poll());
+       pq1.poll();
         System.out.println(pq1);
 		
 	}
