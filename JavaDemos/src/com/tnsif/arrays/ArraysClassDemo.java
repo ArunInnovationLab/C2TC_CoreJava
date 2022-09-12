@@ -1,6 +1,8 @@
 package com.tnsif.arrays;
 import java.util.Arrays;
 
+
+
 public class ArraysClassDemo {
 
 	int ar[];
