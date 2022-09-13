@@ -1,4 +1,4 @@
-package com.tnsif.arrays;
+package com.tnsif.Arrays;
 import java.util.Arrays;
 
 
