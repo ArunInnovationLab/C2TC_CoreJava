@@ -30,6 +30,7 @@ public class MultiThreadDemo extends Thread {
 		
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		new MultiThreadDemo(2000,"First");
