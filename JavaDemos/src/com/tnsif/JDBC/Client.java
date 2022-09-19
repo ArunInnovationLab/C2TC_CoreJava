@@ -8,10 +8,10 @@ import java.sql.Statement;
 public class Client {
 
 	public static void main(String[] args) throws SQLException {
-//		createStudent();
-//		updateStudent();
-//		deleteStudent();
-//		getStudent();
+		createStudent();
+		updateStudent();
+		deleteStudent();
+		getStudent();
 		getStudents();
 	}
 
