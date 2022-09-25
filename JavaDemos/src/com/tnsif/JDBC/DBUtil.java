@@ -26,7 +26,6 @@ public class DBUtil {
 	}
 
 	public static Connection getConnectionObject() {
-		// TODO Auto-generated method stub
 		return connection;
 	}
  	

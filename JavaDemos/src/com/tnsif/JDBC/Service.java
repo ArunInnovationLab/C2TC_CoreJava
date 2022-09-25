@@ -19,12 +19,9 @@ public class Service {
 	}
 	 public void storedProcedure() throws SQLException
 		{
-//		    Connection con = DBUtil.getConnection();
-//			Statement st = con.createStatement();
-
-			String query="CREATE PROCEDURE p1() BEGIN insert into student(USN,SNAME,ADDRESS,PHONE,GENDER) VALUES ('1SR98CS012','KARAN','GULBARGA',565668,'M');\r\n"
-					+ "insert into student(USN,SNAME,ADDRESS,PHONE,GENDER) VALUES ('1SR98CS015','JOHN','GULBARGA',565668,'M');\r\n"
-					+ "insert into student(USN,SNAME,ADDRESS,PHONE,GENDER) VALUES ('1SR98CS055','VAN','GULBARGA',565668,'M');\r\n"
+			String query="CREATE PROCEDURE p9() BEGIN insert into student(USN,SNAME,ADDRESS,PHONE,GENDER) VALUES ('1SR08CS066','KARAN','GULBARGA',565668,'M');\r\n"
+					+ "insert into student(USN,SNAME,ADDRESS,PHONE,GENDER) VALUES ('1SR98CS077','JOHN','GULBARGA',565668,'M');\r\n"
+					+ "insert into student(USN,SNAME,ADDRESS,PHONE,GENDER) VALUES ('1SR98CS088','VAN','GULBARGA',565668,'M');\r\n"
 					+ "END";
 			cs=con.prepareCall(query);
 			boolean b=st.execute(query);
@@ -34,8 +31,6 @@ public class Service {
 		}
 
 	public void getStudents() throws SQLException {
-//		Connection conn = DBUtil.getConnection();
-//		Statement st = conn.createStatement();
 		String SQL = "SELECT * FROM STUDENT";
 		ResultSet rs = st.executeQuery(SQL);
 		while(rs.next()) {
@@ -52,8 +47,6 @@ public class Service {
 	}
 
 	public void getStudent() throws SQLException {
-//		Connection conn = DBUtil.getConnection();
-//		Statement st = conn.createStatement();
 		String SQL = "SELECT * FROM STUDENT WHERE SNAME = 'ARUNKUMAR'";
 		ResultSet rs = st.executeQuery(SQL);
 		if(rs.next()) {
@@ -72,8 +65,6 @@ public class Service {
 	}
 
 	public void deleteStudent() throws SQLException {
-//		Connection conn = DBUtil.getConnection();
-//		Statement st = conn.createStatement();
 		String SQLDELETE = "DELETE FROM STUDENT WHERE USN='1SK18CS005'";
 		Integer executeUpdate = st.executeUpdate(SQLDELETE);
 		if(executeUpdate==1) {
@@ -82,8 +73,6 @@ public class Service {
 	}
 
 	public void updateStudent() throws SQLException {
-//		Connection conn = DBUtil.getConnection();
-//		Statement st = conn.createStatement();
 		String SQLUPDATE = "UPDATE STUDENT SET SNAME = 'VARUN' WHERE USN='1SR98CS006'";
 		Integer executeUpdate = st.executeUpdate(SQLUPDATE);
 		if(executeUpdate==1) {
@@ -92,8 +81,6 @@ public class Service {
 	}
 
 	public void createStudent() throws SQLException {
-//		Connection conn = DBUtil.getConnection();
-//		Statement st = conn.createStatement();
 		String SQLINSERT = "INSERT INTO STUDENT (USN,SNAME,ADDRESS,PHONE,GENDER) VALUES ('1SR98CS011','KIRAN','GULBARGA',565668,'M')";
 	    Integer executeUpdate = st.executeUpdate(SQLINSERT);
 	    if (executeUpdate==1) {
