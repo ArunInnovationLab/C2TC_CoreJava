@@ -10,16 +10,19 @@ public class ArithmeticExceptionDemo {
 		Integer b =20/2;
 		System.out.println(b);
 		
-		try {
-			Integer c = 30/0;
-			System.out.println(c);
-		} catch (Exception e) {
-			System.out.println(e);
-		}
+		boolean spam = true;
 		
-		finally {
-			System.out.println("hello world");
-		}
+			try {
+				Integer c = 30 / 0;
+				spam=false;
+				System.out.println(c);
+			} catch (Exception e) {
+				System.out.println(e);
+			}
+
+			finally {
+				System.out.println("hello world");
+			} 
 		
 		Integer d = 30/3;
 		System.out.println(d);
