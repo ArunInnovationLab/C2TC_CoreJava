@@ -17,8 +17,8 @@ public class LocalDateDemo {
 		System.out.println(ld);
 		
 		Clock clock = Clock.systemDefaultZone();
-		LocalDate ld2 = LocalDate.now(clock);
-		System.out.println(ld2);
+		//LocalDate ld2 = LocalDate.now(clock);
+		System.out.println(clock);
 		
 		ZoneId zone = ZoneId.of("Australia/Darwin");
 		LocalDate ld3 = LocalDate.now(zone);
