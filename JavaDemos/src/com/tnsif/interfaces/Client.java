@@ -6,12 +6,12 @@ public class Client {
 
 		Animal animal1 = new Tiger();
 		animal1.eat();
-		animal1.makesSound();
+		animal1.legs();
 		
 		Animal animal2 = new Cow();
 		animal2.eat();
-		animal2.makesSound();
-		
+		animal2.legs();
+
 	}
 
 }

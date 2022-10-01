@@ -12,9 +12,21 @@ public class AssumptionDemo {
 		System.out.println("test passed");
 	}
 	
+	@Test
+	void testOnProd() {
+		System.setProperty("ENV", "DEV");
+		Assumptions.assumingThat("DE".equals(System.getProperty("ENV")),()->{
+			System.out.println(3+3);
+		});
+		System.out.println("test passed");
+	}
+	
 	private static String message() {
 		return "TEST EXECUTION FAILED";
 	}
+	
+	
+	
 	
 
 	

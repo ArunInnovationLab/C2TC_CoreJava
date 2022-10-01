@@ -7,11 +7,4 @@ public class Cow implements Animal {
 		 System.out.println("Cow eats Grass");
 	}
 
-	@Override
-	public void makesSound() {
-         System.out.println("Moww");		
-	}
-
-
-
 }

@@ -7,10 +7,9 @@ public class Tiger implements Animal {
 	public void eat() {
 		System.out.println("Tiger eats Meat");
 	}
-
-	@Override
-	public void makesSound() {
-		System.out.println("Tiger roars");
+	
+	public void legs() {
+		System.out.println("Tigers have four legs");
 	}
-   
+
 }

@@ -3,6 +3,9 @@ package com.tnsif.interfaces;
 public interface Animal {
     
 	public void eat();
-    public void makesSound();
+    
+    default public void legs() {
+    	System.out.println("Animals have four legs .");
+    }
     
 }
