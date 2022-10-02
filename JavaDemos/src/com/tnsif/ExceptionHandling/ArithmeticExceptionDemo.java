@@ -1,5 +1,7 @@
 package com.tnsif.ExceptionHandling;
 
+import java.io.BufferedReader;
+
 public class ArithmeticExceptionDemo {
 
 	public static void main(String[] args) {
@@ -10,14 +12,11 @@ public class ArithmeticExceptionDemo {
 		Integer b =20/2;
 		System.out.println(b);
 		
-		boolean spam = true;
-		
 			try {
 				Integer c = 30 / 0;
-				spam=false;
 				System.out.println(c);
 			} catch (Exception e) {
-				System.out.println(e);
+				System.out.println("Can not divide by zero.");
 			}
 
 			finally {
