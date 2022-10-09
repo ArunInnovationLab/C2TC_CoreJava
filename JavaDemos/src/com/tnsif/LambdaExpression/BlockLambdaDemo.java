@@ -16,6 +16,7 @@ public class BlockLambdaDemo {
 			return result;
 		};
 		
+		
 		System.out.println("factorial of 3 = "+factorial.func(3));
 	}
 }

@@ -15,6 +15,5 @@ public class LambdasAsArgumentsDemo {
 		String outStr;
 		System.out.println("Input string : "+inStr);
 	}
-
-
+	
 }

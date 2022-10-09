@@ -19,7 +19,6 @@ public class BlockLambdaDemo2 {
 			return str;
 		};
 		
-		
 		System.out.println(reverse.func("Hello World"));
 	}
 

@@ -15,6 +15,7 @@ public class GenericFunctionalInterfaceDemo {
 			}
 			return result;
 		};
+		
 		System.out.println("factorial of 3 = "+factorial.func(3));
 	
 		SomeFunc<String> reverse = (n)->{

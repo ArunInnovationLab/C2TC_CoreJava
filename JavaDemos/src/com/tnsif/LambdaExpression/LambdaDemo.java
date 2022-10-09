@@ -17,6 +17,7 @@ public class LambdaDemo {
 		
 		NumericTest isNonNeg = (n)->n>=0;
 		
+		
 		if(isNonNeg.test(1))
 			System.out.println("1 is non-negative");
 		if(!isNonNeg.test(-1))
